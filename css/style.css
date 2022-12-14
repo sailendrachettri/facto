@@ -1,0 +1,56 @@
+/* ______________________________NAVIGATION STARTED______________________________ */
+
+nav{
+    background-color: aqua;
+    height: 5em;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav > ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+nav > ul > li{
+    list-style: none;
+}
+/* ______________________________NAVIGATION ENDED______________________________ */
+
+
+
+/* ______________________________BODY CONTENT STARTED______________________________ */
+#bodyContent{
+    margin-top: 10%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+#factDivision{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2rem 0rem 4rem 0rem;
+}
+
+#factDivision > h2{
+    display: flex;
+    justify-content: center;
+}
+
+#factInfo{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#fact{
+    padding: 2em;
+}
+/* ______________________________BODY CONTENT ENDED______________________________ */
+
