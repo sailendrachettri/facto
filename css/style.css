@@ -1,26 +1,13 @@
-/* ______________________________NAVIGATION STARTED______________________________ */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Rajdhani:wght@300;400;500&display=swap');
 
-nav{
-    background-color: aqua;
-    height: 5em;
-    min-width: 100%;
-    display: flex;
-    align-items: center;
+body{
+    background-color: #141a1a;
 }
 
-nav > ul{
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
+:root{
+    --headingText: 'Londrina Shadow', 'cursive';
+    --infoText: 'Rajdhani', 'sans-serif';
 }
-
-nav > ul > li{
-    list-style: none;
-}
-/* ______________________________NAVIGATION ENDED______________________________ */
-
-
 
 /* ______________________________BODY CONTENT STARTED______________________________ */
 #bodyContent{
@@ -31,15 +18,18 @@ nav > ul > li{
 }
 
 #factDivision{
-    width: 40%;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 2rem 0rem 4rem 0rem;
+    color: whitesmoke;
+    width: 75%;
+    min-height: 77vh;
 }
 
 #factDivision > h2{
     display: flex;
     justify-content: center;
+    font-size: 3em;
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: var(--headingText);
 }
 
 #factInfo{
@@ -47,10 +37,26 @@ nav > ul > li{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: xx-large;
+    font-weight: 400; 
+    font-family: var(--infoText);
 }
 
 #fact{
     padding: 2em;
 }
 /* ______________________________BODY CONTENT ENDED______________________________ */
+
+/* ______________________________FOOTER STARTED______________________________ */
+footer{
+    display: flex;
+    justify-content: center;
+    color: #67899d;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: #67899d;
+}
+/* ______________________________FOOTER ENDED______________________________ */
 

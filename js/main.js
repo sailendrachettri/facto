@@ -6,8 +6,6 @@ const options = {
 	}
 };
 
-
-
 function changeFact() {
 
 	fetch('https://facts-by-api-ninjas.p.rapidapi.com/v1/facts', options)
@@ -15,7 +13,7 @@ function changeFact() {
 		.then((response) => {
 			// console.log(response);
 
-			factInfo.innerHTML = response[0].fact;
+			factInfo.innerHTML = response[0].fact + '.';
 
 
 
@@ -26,4 +24,11 @@ function changeFact() {
 
 changeFact();
 
-setInterval(changeFact, 20000);
+setInterval(changeFact, 15000);
+
+
+// _________________________________FOOTER STARTED_________________________________
+let date = new Date();
+let year = date.getFullYear();
+footerYear.innerHTML = year;
+// _________________________________FOOTER ENDED_________________________________
