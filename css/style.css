@@ -57,6 +57,7 @@ footer{
 footer > p > a{
     text-decoration: none;
     color: #67899d;
+    font-weight: bold;
 }
 /* ______________________________FOOTER ENDED______________________________ */
 
