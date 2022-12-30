@@ -20,7 +20,7 @@ body{
 #factDivision{
     color: whitesmoke;
     width: 75%;
-    min-height: 77vh;
+    min-height: 95vh;
 }
 
 #factDivision > h2{
@@ -61,3 +61,12 @@ footer > p > a{
 }
 /* ______________________________FOOTER ENDED______________________________ */
 
+
+@media screen and (max-width: 480px) {
+    #factDivision > h2{
+        font-size: 2em;
+    }
+    #factInfo{
+        font-size: 1em;
+    }
+  }
