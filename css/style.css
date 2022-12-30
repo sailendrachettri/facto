@@ -64,9 +64,11 @@ footer > p > a{
 
 @media screen and (max-width: 480px) {
     #factDivision > h2{
-        font-size: 2em;
+        font-size: 45px;
+        /* border: 1px solid wheat; */
     }
     #factInfo{
-        font-size: 1em;
+        font-size: 23px;
+        /* border: 1px solid wheat; */
     }
   }
