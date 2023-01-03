@@ -74,6 +74,7 @@ footer > p > a{
 /* ______________________________FOOTER ENDED______________________________ */
 
 
+/* ______________________________RESPONSIVENESS STARTED______________________________ */
 @media screen and (max-width: 480px) {
     #factDivision{
         width: 100vw;
@@ -94,3 +95,4 @@ footer > p > a{
         font-size: 20px;
     }
 }
+/* ______________________________RESPONSIVENESS ENDED______________________________ */
