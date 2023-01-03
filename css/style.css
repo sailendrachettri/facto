@@ -50,8 +50,20 @@ body{
 /* ______________________________FOOTER STARTED______________________________ */
 footer{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     color: #67899d;
+}
+
+footer > p{
+    margin: 5px;
+}
+
+#anotherProject{
+    color: inherit;
+    font-weight: bold;
+    font-family: var(--infoText);
+    text-decoration: none;
 }
 
 footer > p > a{
@@ -63,12 +75,13 @@ footer > p > a{
 
 
 @media screen and (max-width: 480px) {
+    #factDivision{
+        width: 100vw;
+    }
     #factDivision > h2{
         font-size: 45px;
-        /* border: 1px solid wheat; */
     }
     #factInfo{
         font-size: 23px;
-        /* border: 1px solid wheat; */
     }
   }
