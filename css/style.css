@@ -84,4 +84,13 @@ footer > p > a{
     #factInfo{
         font-size: 23px;
     }
-  }
+}
+
+@media screen and (max-width: 320px) {
+    #factDivision > h2{
+        font-size: 38px;
+    }
+    #factInfo{
+        font-size: 20px;
+    }
+}
